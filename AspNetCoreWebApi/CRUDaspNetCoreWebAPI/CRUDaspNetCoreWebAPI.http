@@ -1,0 +1,6 @@
+@CRUDaspNetCoreWebAPI_HostAddress = http://localhost:5244
+
+GET {{CRUDaspNetCoreWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
