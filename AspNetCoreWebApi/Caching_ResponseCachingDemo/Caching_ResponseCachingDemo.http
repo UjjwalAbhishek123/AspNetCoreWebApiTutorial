@@ -1,0 +1,6 @@
+@Caching_ResponseCachingDemo_HostAddress = http://localhost:5032
+
+GET {{Caching_ResponseCachingDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
