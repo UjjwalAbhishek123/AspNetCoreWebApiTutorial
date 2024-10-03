@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDaspNetCoreWebAPI", "CRU
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDapiConsumptionInMVC", "CRUDapiConsumptionInMVC\CRUDapiConsumptionInMVC.csproj", "{696E1A45-9B87-4804-8EF2-5DF31E2301E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching_ResponseCachingDemo", "Caching_ResponseCachingDemo\Caching_ResponseCachingDemo.csproj", "{E3EE9C25-3DA1-40C8-B7CF-A6DE8349516C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching_ResponseCachingDemo", "Caching_ResponseCachingDemo\Caching_ResponseCachingDemo.csproj", "{E3EE9C25-3DA1-40C8-B7CF-A6DE8349516C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching_InMemoryCachingDemo", "Caching_InMemoryCachingDemo\Caching_InMemoryCachingDemo.csproj", "{FBEA7DBE-5FBC-4CF2-BFD8-FA251D280F5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E3EE9C25-3DA1-40C8-B7CF-A6DE8349516C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3EE9C25-3DA1-40C8-B7CF-A6DE8349516C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3EE9C25-3DA1-40C8-B7CF-A6DE8349516C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEA7DBE-5FBC-4CF2-BFD8-FA251D280F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEA7DBE-5FBC-4CF2-BFD8-FA251D280F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEA7DBE-5FBC-4CF2-BFD8-FA251D280F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEA7DBE-5FBC-4CF2-BFD8-FA251D280F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
