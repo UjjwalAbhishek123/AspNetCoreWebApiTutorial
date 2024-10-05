@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching_ResponseCachingDemo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching_InMemoryCachingDemo", "Caching_InMemoryCachingDemo\Caching_InMemoryCachingDemo.csproj", "{FBEA7DBE-5FBC-4CF2-BFD8-FA251D280F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching_DistributedCachingDemo", "Caching_DistributedCachingDemo\Caching_DistributedCachingDemo.csproj", "{76500AF6-1974-4B8E-A80D-F36F1B925A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caching_DistributedCachingDemo", "Caching_DistributedCachingDemo\Caching_DistributedCachingDemo.csproj", "{76500AF6-1974-4B8E-A80D-F36F1B925A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging_InBuiltLoggingDemoAspNetCore", "Logging_InBuiltLoggingDemoAspNetCore\Logging_InBuiltLoggingDemoAspNetCore.csproj", "{A0B9F5E1-A603-47D9-8451-FFB5ED7BB7BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{76500AF6-1974-4B8E-A80D-F36F1B925A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76500AF6-1974-4B8E-A80D-F36F1B925A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76500AF6-1974-4B8E-A80D-F36F1B925A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B9F5E1-A603-47D9-8451-FFB5ED7BB7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B9F5E1-A603-47D9-8451-FFB5ED7BB7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B9F5E1-A603-47D9-8451-FFB5ED7BB7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B9F5E1-A603-47D9-8451-FFB5ED7BB7BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
