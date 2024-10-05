@@ -1,0 +1,511 @@
+2024-10-05 18:15:41.211 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-05 18:15:41.833 +05:30 [DBG] Hosting starting
+2024-10-05 18:15:42.671 +05:30 [INF] Now listening on: https://localhost:7130
+2024-10-05 18:15:42.673 +05:30 [INF] Now listening on: http://localhost:5156
+2024-10-05 18:15:42.678 +05:30 [DBG] Loaded hosting startup assembly Logging_InBuiltLoggingDemoAspNetCore
+2024-10-05 18:15:42.681 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-05 18:15:42.688 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-05 18:15:42.690 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-05 18:15:42.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 18:15:42.868 +05:30 [INF] Hosting environment: Development
+2024-10-05 18:15:42.871 +05:30 [INF] Content root path: C:\Users\HP\source\repos\UjjwalAbhishek123\AspNetCoreWebApiTutorial\AspNetCoreWebApi\Logging_InBuiltLoggingDemoAspNetCore
+2024-10-05 18:15:42.960 +05:30 [DBG] Hosting started
+2024-10-05 18:16:08.808 +05:30 [DBG] Connection id "0HN757ENM4UVU" accepted.
+2024-10-05 18:16:08.814 +05:30 [DBG] Connection id "0HN757ENM4UVU" started.
+2024-10-05 18:16:08.989 +05:30 [DBG] Connection 0HN757ENM4UVU established using the following protocol: "Tls12"
+2024-10-05 18:16:09.189 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/swagger/index.html - null null
+2024-10-05 18:16:09.525 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-05 18:16:09.585 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-05 18:16:09.589 +05:30 [DBG] Request did not match any endpoints
+2024-10-05 18:16:09.836 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-05 18:16:09.849 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-05 18:16:09.952 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-05 18:16:09.956 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-05 18:16:09.971 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/swagger/index.html - 200 null text/html;charset=utf-8 799.8976ms
+2024-10-05 18:16:10.096 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-05 18:16:10.097 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2024-10-05 18:16:10.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 13808 application/javascript; charset=utf-8 56.3736ms
+2024-10-05 18:16:10.366 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 270.4433ms
+2024-10-05 18:16:10.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/swagger/v1/swagger.json - null null
+2024-10-05 18:16:10.504 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-05 18:16:10.526 +05:30 [DBG] Request did not match any endpoints
+2024-10-05 18:16:11.028 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 534.0105ms
+2024-10-05 18:16:33.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/api/Products - null null
+2024-10-05 18:16:33.145 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2024-10-05 18:16:33.154 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2024-10-05 18:16:33.159 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:16:33.170 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:16:33.184 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:16:33.281 +05:30 [INF] Route matched with {action = "GetAllPRoducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPRoducts() on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:16:33.299 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:16:33.304 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:16:33.320 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:16:33.338 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:16:33.346 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:16:33.357 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:16:33.865 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-05 18:17:50.415 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:18:25.827 +05:30 [INF] Fetching all products
+2024-10-05 18:18:42.370 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-05 18:18:42.757 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-10-05 18:18:42.959 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()'
+2024-10-05 18:18:43.462 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Name (string) Required, 1], [Property: Product.Price (decimal) Required, 2] }
+        SELECT p.Id, p.Name, p.Price
+        FROM Products AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    Logging_InBuiltLoggingDemoAspNetCore.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-05 18:18:43.558 +05:30 [DBG] Creating DbConnection.
+2024-10-05 18:18:43.657 +05:30 [DBG] Created DbConnection. (89ms).
+2024-10-05 18:18:43.675 +05:30 [DBG] Opening connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:18:44.835 +05:30 [DBG] Opened connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:18:44.852 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-05 18:18:44.879 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (17ms).
+2024-10-05 18:18:44.891 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (41ms).
+2024-10-05 18:18:44.921 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2024-10-05 18:18:45.072 +05:30 [INF] Executed DbCommand (154ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2024-10-05 18:18:45.228 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:18:45.275 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:18:45.279 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:18:45.283 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:18:45.287 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:18:45.302 +05:30 [DBG] Closing data reader to 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:18:45.320 +05:30 [DBG] A data reader for 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' is being disposed after spending 224ms reading results.
+2024-10-05 18:18:45.331 +05:30 [DBG] Closing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:18:45.360 +05:30 [DBG] Closed connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' (27ms).
+2024-10-05 18:19:05.141 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:19:05.154 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-05 18:19:05.156 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-05 18:19:05.160 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-05 18:19:05.164 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-05 18:19:05.172 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Logging_InBuiltLoggingDemoAspNetCore.Models.Product, Logging_InBuiltLoggingDemoAspNetCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-05 18:19:05.357 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore) in 151988.0467ms
+2024-10-05 18:19:05.364 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:19:05.377 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-10-05 18:19:05.398 +05:30 [DBG] Disposing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:19:05.405 +05:30 [DBG] Disposed connection to database '' on server '' (8ms).
+2024-10-05 18:19:05.410 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/api/Products - 200 null application/json; charset=utf-8 152300.6769ms
+2024-10-05 18:20:10.766 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7130/api/Products - application/json 59
+2024-10-05 18:20:10.783 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2024-10-05 18:20:10.788 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.CreateProduct (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2024-10-05 18:20:10.793 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.CreateProduct (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:20:10.796 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:20:10.799 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.CreateProduct (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:20:10.830 +05:30 [INF] Route matched with {action = "CreateProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Logging_InBuiltLoggingDemoAspNetCore.Models.Product]] CreateProduct(Logging_InBuiltLoggingDemoAspNetCore.Models.Product) on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:20:10.845 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:20:10.856 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:20:10.861 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:20:10.868 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:20:10.874 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:20:10.879 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:20:34.919 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:20:34.956 +05:30 [DBG] Attempting to bind parameter 'product' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product' ...
+2024-10-05 18:20:34.967 +05:30 [DBG] Attempting to bind parameter 'product' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product' using the name '' in request data ...
+2024-10-05 18:20:34.976 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-05 18:20:34.994 +05:30 [DBG] Connection id "0HN757ENM4UVU", Request id "0HN757ENM4UVU:0000000B": started reading request body.
+2024-10-05 18:20:35.000 +05:30 [DBG] Connection id "0HN757ENM4UVU", Request id "0HN757ENM4UVU:0000000B": done reading request body.
+2024-10-05 18:20:35.154 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'
+2024-10-05 18:20:35.158 +05:30 [DBG] Done attempting to bind parameter 'product' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:20:35.164 +05:30 [DBG] Done attempting to bind parameter 'product' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:20:35.168 +05:30 [DBG] Attempting to validate the bound parameter 'product' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product' ...
+2024-10-05 18:20:35.202 +05:30 [DBG] Done attempting to validate the bound parameter 'product' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:21:00.307 +05:30 [DBG] Creating product: {"Id":0,"Name":"Smart Watch","Price":13000.00,"$type":"Product"}
+2024-10-05 18:21:18.782 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-10-05 18:21:18.828 +05:30 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'Product.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:21:18.854 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:21:23.218 +05:30 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2024-10-05 18:21:23.230 +05:30 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2024-10-05 18:21:23.258 +05:30 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2024-10-05 18:21:23.414 +05:30 [DBG] Creating DbConnection.
+2024-10-05 18:21:23.417 +05:30 [DBG] Created DbConnection. (2ms).
+2024-10-05 18:21:23.419 +05:30 [DBG] Opening connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:21:23.427 +05:30 [DBG] Opened connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:21:23.442 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-05 18:21:23.444 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-05 18:21:23.459 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2024-10-05 18:21:23.471 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-10-05 18:21:23.552 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-10-05 18:21:23.623 +05:30 [DBG] The foreign key property 'Product.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-05 18:21:23.637 +05:30 [DBG] Closing data reader to 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:21:23.641 +05:30 [DBG] A data reader for 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' is being disposed after spending 41ms reading results.
+2024-10-05 18:21:23.650 +05:30 [DBG] Closing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:21:23.656 +05:30 [DBG] Closed connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' (5ms).
+2024-10-05 18:21:23.688 +05:30 [DBG] An entity of type 'Product' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:21:23.698 +05:30 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2024-10-05 18:21:37.800 +05:30 [ERR] Product created with ID 7
+2024-10-05 18:21:48.632 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:21:48.643 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-05 18:21:48.653 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-05 18:21:48.657 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-05 18:21:48.661 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-05 18:21:48.668 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-05 18:21:48.674 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:21:48.787 +05:30 [DBG] Found the endpoints ["Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore)"] for address (id=[7],action=[GetProductById],controller=[Products])
+2024-10-05 18:21:48.806 +05:30 [DBG] Successfully processed template api/Products/{id} for Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore) resulting in /api/Products/7 and 
+2024-10-05 18:21:48.818 +05:30 [DBG] Link generation succeeded for endpoints ["Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore)"] with result /api/Products/7
+2024-10-05 18:21:48.826 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.CreateProduct (Logging_InBuiltLoggingDemoAspNetCore) in 97947.0812ms
+2024-10-05 18:21:48.842 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.CreateProduct (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:21:48.847 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-10-05 18:21:48.850 +05:30 [DBG] Disposing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:21:48.858 +05:30 [DBG] Disposed connection to database '' on server '' (7ms).
+2024-10-05 18:21:48.863 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7130/api/Products - 201 null application/json; charset=utf-8 98096.5684ms
+2024-10-05 18:22:08.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/api/Products - null null
+2024-10-05 18:22:08.032 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products'
+2024-10-05 18:22:08.047 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products' is valid for the request path '/api/Products'
+2024-10-05 18:22:08.054 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:22:08.058 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:22:08.063 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:22:08.066 +05:30 [INF] Route matched with {action = "GetAllPRoducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPRoducts() on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:22:08.072 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:22:08.076 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:22:08.079 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:22:08.083 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:22:08.086 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:22:08.091 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:22:11.545 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:22:12.101 +05:30 [INF] Fetching all products
+2024-10-05 18:22:12.823 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-10-05 18:22:12.833 +05:30 [DBG] Creating DbConnection.
+2024-10-05 18:22:12.835 +05:30 [DBG] Created DbConnection. (1ms).
+2024-10-05 18:22:12.839 +05:30 [DBG] Opening connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:22:12.844 +05:30 [DBG] Opened connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:22:12.847 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-05 18:22:12.849 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-05 18:22:12.852 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-10-05 18:22:12.856 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2024-10-05 18:22:12.874 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+2024-10-05 18:22:12.946 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:22:12.950 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:22:12.954 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:22:12.960 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:22:12.968 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:22:12.973 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-05 18:22:12.981 +05:30 [DBG] Closing data reader to 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:22:12.985 +05:30 [DBG] A data reader for 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' is being disposed after spending 39ms reading results.
+2024-10-05 18:22:12.989 +05:30 [DBG] Closing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:22:12.997 +05:30 [DBG] Closed connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' (8ms).
+2024-10-05 18:22:14.248 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:22:14.256 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-05 18:22:14.262 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-05 18:22:14.265 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-05 18:22:14.286 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-05 18:22:14.291 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Logging_InBuiltLoggingDemoAspNetCore.Models.Product, Logging_InBuiltLoggingDemoAspNetCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-05 18:22:14.458 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore) in 6366.7138ms
+2024-10-05 18:22:14.548 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetAllPRoducts (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:22:14.552 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-10-05 18:22:14.576 +05:30 [DBG] Disposing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:22:14.767 +05:30 [DBG] Disposed connection to database '' on server '' (191ms).
+2024-10-05 18:22:14.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/api/Products - 200 null application/json; charset=utf-8 6779.1088ms
+2024-10-05 18:23:10.444 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/api/Products/6 - null null
+2024-10-05 18:23:10.462 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products/6'
+2024-10-05 18:23:10.466 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products/{id}' is valid for the request path '/api/Products/6'
+2024-10-05 18:23:10.474 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:23:10.476 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:23:10.478 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:23:10.492 +05:30 [INF] Route matched with {action = "GetProductById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Logging_InBuiltLoggingDemoAspNetCore.Models.Product]] GetProductById(Int32) on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:23:10.496 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:23:10.499 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:23:10.504 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:23:10.508 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:23:10.511 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:23:10.514 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:23:44.042 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:23:44.049 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:23:44.054 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-05 18:23:44.064 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:23:44.069 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:23:44.073 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:23:44.079 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-05 18:23:51.806 +05:30 [DBG] Received request to fetch product with ID 6
+2024-10-05 18:23:56.957 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-10-05 18:23:57.017 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2024-10-05 18:23:57.236 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Product>(
+    asyncEnumerable: new SingleQueryingEnumerable<Product>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Name (string) Required, 1], [Property: Product.Price (decimal) Required, 2] }
+            SELECT TOP(1) p.Id, p.Name, p.Price
+            FROM Products AS p
+            WHERE p.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+        Logging_InBuiltLoggingDemoAspNetCore.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-10-05 18:23:57.263 +05:30 [DBG] Creating DbConnection.
+2024-10-05 18:23:57.265 +05:30 [DBG] Created DbConnection. (2ms).
+2024-10-05 18:23:57.268 +05:30 [DBG] Opening connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:23:57.273 +05:30 [DBG] Opened connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:23:57.277 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-05 18:23:57.281 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-10-05 18:23:57.285 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-10-05 18:23:57.289 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-05 18:23:57.303 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-05 18:23:57.359 +05:30 [DBG] Closing data reader to 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:23:57.363 +05:30 [DBG] A data reader for 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' is being disposed after spending 5ms reading results.
+2024-10-05 18:23:57.367 +05:30 [DBG] Closing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:23:57.371 +05:30 [DBG] Closed connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' (4ms).
+2024-10-05 18:24:16.431 +05:30 [WRN] Product with Id 6 not found
+2024-10-05 18:24:21.241 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:24:21.253 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-10-05 18:24:21.268 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-05 18:24:21.276 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-05 18:24:21.284 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-05 18:24:21.292 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-05 18:24:21.333 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore) in 70819.1519ms
+2024-10-05 18:24:21.346 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.GetProductById (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:24:21.352 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-10-05 18:24:21.356 +05:30 [DBG] Disposing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:24:21.360 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-10-05 18:24:21.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/api/Products/6 - 404 null application/problem+json; charset=utf-8 70928.4032ms
+2024-10-05 18:24:36.302 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7130/api/Products/6 - null null
+2024-10-05 18:24:36.318 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products/6'
+2024-10-05 18:24:36.326 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products/{id}' is valid for the request path '/api/Products/6'
+2024-10-05 18:24:36.333 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:24:36.341 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:24:36.345 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:24:36.361 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Delete(Int32) on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:24:36.378 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:24:36.389 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:24:36.394 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:24:36.404 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:24:36.411 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:24:36.419 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:24:41.712 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:24:41.717 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:24:41.722 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-05 18:24:41.728 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:24:41.737 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:24:41.744 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:24:41.752 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-05 18:24:51.690 +05:30 [DBG] Received Request to update product with ID 6
+2024-10-05 18:24:57.615 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-10-05 18:24:57.632 +05:30 [DBG] Creating DbConnection.
+2024-10-05 18:24:57.634 +05:30 [DBG] Created DbConnection. (1ms).
+2024-10-05 18:24:57.637 +05:30 [DBG] Opening connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:24:57.641 +05:30 [DBG] Opened connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:24:57.651 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-05 18:24:57.656 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2024-10-05 18:24:57.661 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-10-05 18:24:57.665 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-05 18:24:57.757 +05:30 [INF] Executed DbCommand (93ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-05 18:24:57.768 +05:30 [DBG] Closing data reader to 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:24:57.776 +05:30 [DBG] A data reader for 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' is being disposed after spending 8ms reading results.
+2024-10-05 18:24:57.783 +05:30 [DBG] Closing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:24:57.790 +05:30 [DBG] Closed connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' (7ms).
+2024-10-05 18:25:03.578 +05:30 [WRN] Product with ID 6 not found for deletion
+2024-10-05 18:25:08.137 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:25:08.150 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-05 18:25:08.155 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-05 18:25:08.163 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-05 18:25:08.172 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-05 18:25:08.177 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore) in 31757.6628ms
+2024-10-05 18:25:08.186 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:25:08.190 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-10-05 18:25:08.198 +05:30 [DBG] Disposing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:25:08.204 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2024-10-05 18:25:08.208 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7130/api/Products/6 - 404 null application/problem+json; charset=utf-8 31905.5719ms
+2024-10-05 18:26:49.813 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-05 18:26:50.184 +05:30 [DBG] Hosting starting
+2024-10-05 18:26:50.872 +05:30 [INF] Now listening on: https://localhost:7130
+2024-10-05 18:26:50.881 +05:30 [INF] Now listening on: http://localhost:5156
+2024-10-05 18:26:50.884 +05:30 [DBG] Loaded hosting startup assembly Logging_InBuiltLoggingDemoAspNetCore
+2024-10-05 18:26:50.886 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-05 18:26:50.889 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-05 18:26:50.891 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-05 18:26:51.099 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-05 18:26:51.102 +05:30 [INF] Hosting environment: Development
+2024-10-05 18:26:51.105 +05:30 [INF] Content root path: C:\Users\HP\source\repos\UjjwalAbhishek123\AspNetCoreWebApiTutorial\AspNetCoreWebApi\Logging_InBuiltLoggingDemoAspNetCore
+2024-10-05 18:26:51.108 +05:30 [DBG] Hosting started
+2024-10-05 18:27:04.080 +05:30 [DBG] Connection id "0HN757KQVAFPJ" accepted.
+2024-10-05 18:27:04.086 +05:30 [DBG] Connection id "0HN757KQVAFPJ" started.
+2024-10-05 18:27:04.212 +05:30 [DBG] Connection 0HN757KQVAFPJ established using the following protocol: "Tls12"
+2024-10-05 18:27:04.370 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/swagger/index.html - null null
+2024-10-05 18:27:04.629 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-05 18:27:04.680 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-05 18:27:04.688 +05:30 [DBG] Request did not match any endpoints
+2024-10-05 18:27:04.893 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-05 18:27:04.924 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-05 18:27:05.039 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-05 18:27:05.044 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-05 18:27:05.066 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-05 18:27:05.067 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2024-10-05 18:27:05.074 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/swagger/index.html - 200 null text/html;charset=utf-8 698.9787ms
+2024-10-05 18:27:05.200 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 13808 application/javascript; charset=utf-8 133.7224ms
+2024-10-05 18:27:05.295 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 227.7655ms
+2024-10-05 18:27:05.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7130/swagger/v1/swagger.json - null null
+2024-10-05 18:27:05.678 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-05 18:27:05.682 +05:30 [DBG] Request did not match any endpoints
+2024-10-05 18:27:05.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7130/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 369.3661ms
+2024-10-05 18:27:19.036 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7130/api/Products/6 - null null
+2024-10-05 18:27:19.084 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products/6'
+2024-10-05 18:27:19.095 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products/{id}' is valid for the request path '/api/Products/6'
+2024-10-05 18:27:19.105 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:27:19.116 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:27:19.123 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:27:19.182 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Delete(Int32) on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:27:19.200 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:27:19.206 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:27:19.215 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:27:19.223 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:27:19.231 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:27:19.245 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:27:19.587 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-05 18:27:44.378 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:27:44.411 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:27:44.421 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-05 18:27:44.429 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:27:44.433 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:27:44.437 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:27:44.449 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-05 18:27:52.826 +05:30 [DBG] Received Request to delete product with ID 6
+2024-10-05 18:28:02.659 +05:30 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-05 18:28:02.983 +05:30 [DBG] Entity Framework Core 8.0.8 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.8' with options: None
+2024-10-05 18:28:03.199 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .FirstOrDefault(e => EF.Property<int>(e, "Id") == __p_0)'
+2024-10-05 18:28:03.742 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Product>(
+    asyncEnumerable: new SingleQueryingEnumerable<Product>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Name (string) Required, 1], [Property: Product.Price (decimal) Required, 2] }
+            SELECT TOP(1) p.Id, p.Name, p.Price
+            FROM Products AS p
+            WHERE p.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+        Logging_InBuiltLoggingDemoAspNetCore.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-10-05 18:28:03.880 +05:30 [DBG] Creating DbConnection.
+2024-10-05 18:28:03.933 +05:30 [DBG] Created DbConnection. (48ms).
+2024-10-05 18:28:03.944 +05:30 [DBG] Opening connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:28:04.749 +05:30 [DBG] Opened connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:28:04.764 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-05 18:28:04.785 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (13ms).
+2024-10-05 18:28:04.810 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (49ms).
+2024-10-05 18:28:04.838 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-05 18:28:04.995 +05:30 [INF] Executed DbCommand (164ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-05 18:28:05.035 +05:30 [DBG] Closing data reader to 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:28:05.057 +05:30 [DBG] A data reader for 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' is being disposed after spending 46ms reading results.
+2024-10-05 18:28:05.070 +05:30 [DBG] Closing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:28:05.086 +05:30 [DBG] Closed connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS' (16ms).
+2024-10-05 18:28:14.296 +05:30 [WRN] Product with ID 6 not found for deletion
+2024-10-05 18:28:22.128 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:28:22.142 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-05 18:28:22.146 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-05 18:28:22.155 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-05 18:28:22.161 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-10-05 18:28:22.201 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore) in 62956.5516ms
+2024-10-05 18:28:22.209 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.Delete (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:28:22.218 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-10-05 18:28:22.238 +05:30 [DBG] Disposing connection to database 'LoggingDemoDB' on server 'DESKTOP-9UUR0U8\SQLEXPRESS'.
+2024-10-05 18:28:22.263 +05:30 [DBG] Disposed connection to database '' on server '' (24ms).
+2024-10-05 18:28:22.273 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7130/api/Products/6 - 404 null application/problem+json; charset=utf-8 63237.6446ms
+2024-10-05 18:29:22.199 +05:30 [DBG] Connection id "0HN757KQVAFPJ" received FIN.
+2024-10-05 18:29:22.235 +05:30 [DBG] Connection id "0HN757KQVAFPJ" is closed. The last processed stream ID was 9.
+2024-10-05 18:29:22.236 +05:30 [DBG] The connection queue processing loop for 0HN757KQVAFPJ completed.
+2024-10-05 18:29:22.240 +05:30 [DBG] Connection id "0HN757KQVAFPJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-05 18:29:22.268 +05:30 [DBG] Connection id "0HN757KQVAFPJ" stopped.
+2024-10-05 18:29:45.895 +05:30 [DBG] Connection id "0HN757KQVAFPK" accepted.
+2024-10-05 18:29:45.909 +05:30 [DBG] Connection id "0HN757KQVAFPK" started.
+2024-10-05 18:29:45.918 +05:30 [DBG] Connection 0HN757KQVAFPK established using the following protocol: "Tls12"
+2024-10-05 18:29:45.932 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7130/api/Products/7 - application/json 59
+2024-10-05 18:29:45.938 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Products/7'
+2024-10-05 18:29:45.942 +05:30 [DBG] Endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.UpdateProduct (Logging_InBuiltLoggingDemoAspNetCore)' with route pattern 'api/Products/{id}' is valid for the request path '/api/Products/7'
+2024-10-05 18:29:45.947 +05:30 [DBG] Request matched endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.UpdateProduct (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:29:45.950 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-05 18:29:45.952 +05:30 [INF] Executing endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.UpdateProduct (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:29:45.966 +05:30 [INF] Route matched with {action = "UpdateProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] UpdateProduct(Int32, Logging_InBuiltLoggingDemoAspNetCore.Models.Product) on controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore).
+2024-10-05 18:29:45.974 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-05 18:29:45.978 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-05 18:29:45.983 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-05 18:29:45.988 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-05 18:29:45.992 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-05 18:29:45.998 +05:30 [DBG] Executing controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:29:50.833 +05:30 [DBG] Executed controller factory for controller Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController (Logging_InBuiltLoggingDemoAspNetCore)
+2024-10-05 18:29:50.838 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:29:50.843 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-05 18:29:50.849 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:29:50.853 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-05 18:29:50.858 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-05 18:29:50.865 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-05 18:29:50.869 +05:30 [DBG] Attempting to bind parameter 'updatedProduct' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product' ...
+2024-10-05 18:29:50.875 +05:30 [DBG] Attempting to bind parameter 'updatedProduct' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product' using the name '' in request data ...
+2024-10-05 18:29:50.882 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-05 18:29:50.905 +05:30 [DBG] Connection id "0HN757KQVAFPK", Request id "0HN757KQVAFPK:00000001": started reading request body.
+2024-10-05 18:29:50.911 +05:30 [DBG] Connection id "0HN757KQVAFPK", Request id "0HN757KQVAFPK:00000001": done reading request body.
+2024-10-05 18:29:53.644 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'
+2024-10-05 18:29:53.651 +05:30 [DBG] Done attempting to bind parameter 'updatedProduct' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:29:53.654 +05:30 [DBG] Done attempting to bind parameter 'updatedProduct' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:29:53.657 +05:30 [DBG] Attempting to validate the bound parameter 'updatedProduct' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product' ...
+2024-10-05 18:29:53.715 +05:30 [DBG] Done attempting to validate the bound parameter 'updatedProduct' of type 'Logging_InBuiltLoggingDemoAspNetCore.Models.Product'.
+2024-10-05 18:30:08.412 +05:30 [DBG] Received Request to update product with ID 7
+2024-10-05 18:33:55.645 +05:30 [WRN] Product ID mismatch: 7 vs 6
+2024-10-05 18:33:58.703 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-05 18:33:58.713 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-05 18:33:58.719 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-05 18:33:58.724 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-05 18:33:58.732 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-10-05 18:33:58.737 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-10-05 18:33:58.747 +05:30 [INF] Executed action Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.UpdateProduct (Logging_InBuiltLoggingDemoAspNetCore) in 252749.2257ms
+2024-10-05 18:33:58.752 +05:30 [INF] Executed endpoint 'Logging_InBuiltLoggingDemoAspNetCore.Controllers.ProductsController.UpdateProduct (Logging_InBuiltLoggingDemoAspNetCore)'
+2024-10-05 18:33:58.756 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7130/api/Products/7 - 400 null text/plain; charset=utf-8 252824.2876ms

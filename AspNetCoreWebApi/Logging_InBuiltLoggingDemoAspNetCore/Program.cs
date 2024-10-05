@@ -1,5 +1,6 @@
 using Logging_InBuiltLoggingDemoAspNetCore.Data;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,13 +11,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddLogging();
+//builder.Services.AddLogging();
 
-builder.Logging.ClearProviders();
+//builder.Logging.ClearProviders();
 
-// Add logging services (if not already included)
-builder.Logging.AddConsole();
-builder.Logging.AddDebug();
+//// Add logging services (if not already included)
+//builder.Logging.AddConsole();
+//builder.Logging.AddDebug();
+
+//Serilog Configuration
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+//Use Serilog for logging
+builder.Host.UseSerilog();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
